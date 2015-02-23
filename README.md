@@ -1,6 +1,11 @@
 # ajax-nav
 Partial page changes via ajax and pushstates
 
+## Dependencies
+
+- jQuery - https://github.com/jquery/jquery
+
+
 ## Setup
 
 Simply call `$('.AjaxNav').ajaxNav();` in your javascript.
@@ -38,7 +43,6 @@ $('.AjaxNav').ajaxNav({
 
     successEvent: 'contentReady',
 
-    scrollToTop: true,
     scrollTo: 'top'
 });
 ```
