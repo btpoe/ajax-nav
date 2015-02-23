@@ -33,8 +33,8 @@ $('.AjaxNav').ajaxNav({
     excludedLinks: '.AjaxNav--exclude',
     excludeExternalLinks: true,
 
-    serverHelper: function(target) {
-        return 'target='+target;
+    serverHelper: function(nav) {
+        return 'target='+nav.target.attr('id');
     },
 
     beforeRequest: function() {},
